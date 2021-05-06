@@ -1,0 +1,14 @@
+// Importing all the stylesheet files respecting the ITCSS order.
+// This helps organizing the project in order to better deal with CSS specificities.
+// Learn more in http://itcss.com
+
+@import
+  './settings/index.scss',
+  './tools/index.scss',
+  './generic/index.scss',
+  './elements/index.scss',
+  './objects/index.scss',
+  './layout/index.scss',
+  './components/index.scss'
+;
+
